@@ -50,4 +50,4 @@ x = int(input())
 y = int(input())
 
 nums = sorted([x+y, x*y, x-y, x/y, x//y])
-print(nums[1])
+print(nums[-2])
